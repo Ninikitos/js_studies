@@ -15,9 +15,9 @@
 // // taskList.style.display = 'none';
 
 // // Change content
-// taskList.textContent = 'Task List';
-// taskList.innerText = 'My List';
-// taskList.innerHTML = '<span style="color:red">Task List</span>';
+// console.log(document.getElementById('task-title').taskList.textContent = 'Task List';
+// console.log(document.getElementById('task-title').taskList.innerText = 'My List';
+// console.log(document.getElementById('task-title').taskList.innerHTML = '<span style="color:red">Task List</span>';
 
 // document.querySelector()
 console.log(document.querySelector(`#task-title`));

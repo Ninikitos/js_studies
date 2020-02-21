@@ -5,7 +5,7 @@ console.log(123);
 // Alert
 // window.alert('Hello World');
 
-// Promt
+// // Promt
 // const input = prompt();
 // alert(input);
 
