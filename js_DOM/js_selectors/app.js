@@ -6,7 +6,7 @@
 // console.log(document.getElementById('task-title').id);
 // console.log(document.getElementById('task-title').className);
 
-// const taskList = document.getElementById('task-title');
+const taskList = document.getElementById('task-title');
 
 // // Change styling 
 // taskList.style.background = '#333';
@@ -15,14 +15,14 @@
 // // taskList.style.display = 'none';
 
 // // Change content
-// console.log(document.getElementById('task-title').taskList.textContent = 'Task List';
-// console.log(document.getElementById('task-title').taskList.innerText = 'My List';
-// console.log(document.getElementById('task-title').taskList.innerHTML = '<span style="color:red">Task List</span>';
+taskList.textContent = 'Task List';
+taskList.innerText = 'My List';
+taskList.innerHTML = '<span style="color:red">Task List</span>';
 
 // document.querySelector()
-console.log(document.querySelector(`#task-title`));
-console.log(document.querySelector(`.card-title`));
-console.log(document.querySelector(`h5`));
+// console.log(document.querySelector(`#task-title`));
+// console.log(document.querySelector(`.card-title`));
+// console.log(document.querySelector(`h5`));
 
 document.querySelector('li').style.color = 'red';
 document.querySelector('ul li').style.color = 'blue';
